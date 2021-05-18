@@ -59,3 +59,33 @@
 
 
 
+#### Hanoi塔时间复杂度分析
+
+**基本操作为移动一个“饼”**
+
+移动次数的递推公式：
+$$
+M(n) = 2*M(n-1)+1
+$$
+
+
+推知：
+$$
+T(n) = 2*T(n-1)+1
+$$
+化简：
+$$
+T(n)=2^n-1
+$$
+得到：
+$$
+Time Complexity = O(2^n)
+$$
+
+#### 递归和栈
+
+![image-20210518083806347](C:\Users\Christopher Liu\AppData\Roaming\Typora\typora-user-images\image-20210518083806347.png)
+
+#### 迷宫问题
+
+![image-20210518084123776](C:\Users\Christopher Liu\AppData\Roaming\Typora\typora-user-images\image-20210518084123776.png)
