@@ -223,7 +223,7 @@ $$
 
 ![image-20210518204038779](C:\Users\Christopher Liu\AppData\Roaming\Typora\typora-user-images\image-20210518204038779.png)
 
-* 建立 k = next[ j ] 的函数关系
+* 建立 k = next[j] 的函数关系
 * **重点：** 对 next[j]的求解：KMP算法的实现
 
 ![image-20210518204531727](C:\Users\Christopher Liu\AppData\Roaming\Typora\typora-user-images\image-20210518204531727.png)
